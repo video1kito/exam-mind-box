@@ -7,6 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Figure", "Figure\Figure.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FigureUnitTests", "FigureUnitTests\FigureUnitTests.csproj", "{6D983A99-2455-4A89-ACAE-BA553BF13716}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1E9B86DD-3691-4B09-9B7A-CA09AA5430A4}"
+	ProjectSection(SolutionItems) = preProject
+		SecondIssue.sql = SecondIssue.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
