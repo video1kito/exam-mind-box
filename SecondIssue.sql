@@ -6,11 +6,8 @@
 
 
 Ответ:
-Нужно использовать JOIN и LEFT JOIN
+Нужно использовать FULL OUTER JOIN
 */
 
 select * from Products p
-join Category c on p.CategoryID = c.ID
-
-select * from Products p
-left join Category c on p.CategoryID = c.ID
+full join Category c on p.CategoryID = c.ID
